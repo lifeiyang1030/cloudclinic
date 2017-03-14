@@ -1,0 +1,1 @@
+﻿<span>© 2014 厚立技术 版权所有</span> <a href="http://www.miibeian.gov.cn" target="_blank">蜀ICP备14020074号</a>

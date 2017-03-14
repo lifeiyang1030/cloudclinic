@@ -1,0 +1,192 @@
+@CHARSET "UTF-8";
+html,body
+{
+    font-family:"微软雅黑","宋体",Arial;
+    font-size:12px;
+    width:100%;
+    height:100%;
+    min-width:1000px;
+    min-height:557px;
+    margin:0px;
+	padding:0px;
+}
+
+div
+{
+    margin:0px;
+    padding:0px;
+}
+
+a:link { color:#000; text-decoration:none; }
+a:hover { color:#000; text-decoration:none;}
+a:active{ color:#000; text-decoration:none; }
+a:visited{ color:#000; text-decoration:none; }
+
+.tabListH
+{
+	width:98%;
+}
+.tabListH thead tr th
+{
+	padding:5px;
+	background:#E0ECFF;
+	border:1px solid #95B8E7;
+	color:#0E2D5F;
+    font-size:12px;
+    font-weight:bold;
+    height:16px;
+    line-height:16px;
+    text-align:center;
+}
+.tabListH tbody tr:hover{ background:#FBFBFB; }
+.tdHHeadLeft, .tdHHead
+{
+	padding:5px;
+	background:#F4F4F4;
+	border-right:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	font-size:12px;
+	color:#000000;
+	text-align:left;
+}
+.tdHHeadLeft{ border-left:1px solid #CCCCCC; }
+.tdHHeadLeft:hover, .tdHHead:hover{ background:#EAF2FF; }
+.tdHContLeft, .tdHCont
+{
+	padding:5px;
+	border-right:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	font-size:12px;
+	color:#000000;
+	text-align:left;
+} 
+.tdHContLeft{ border-left:1px solid #CCCCCC; }
+
+.tabListV
+{
+	width:98%;
+	border:1px solid #95B8E7;
+}
+.tabListV thead tr th
+{
+	padding:5px;
+	background:#E0ECFF;
+	border-bottom:1px solid #95B8E7;
+	color:#0E2D5F;
+    font-size:12px;
+    font-weight:bold;
+    height:16px;
+    line-height:16px;
+    text-align:center;
+}
+.tabListV tbody tr:hover{ background:#FBFBFB; }
+.tdVHead, .tdVHeadBtm
+{
+	padding:5px;
+	background:#F4F4F4;
+	border-right:1px solid #CCCCCC;
+	font-size:12px;
+	text-align:right;
+	color:#000000;
+	line-height:24px;
+}
+.tdVHead{ border-bottom:1px solid #CCCCCC; }
+.tdVHead:hover, .tdVHeadBtm:hover{ background:#EAF2FF; }
+.tdVCont, .tdVContBtm
+{ 
+	padding:5px; 
+	font-size:12px; 
+	color:#000000; 
+	text-align:left; 
+}
+.tdVCont{ border-bottom:1px solid #CCCCCC; }
+.tdVBtn, .tdVBtnBtm
+{
+	padding:5px; 
+	font-size:12px; 
+	color:#000000; 
+	text-align:center; 
+}
+.tdVBtn{ border-bottom:1px solid #CCCCCC; }
+
+.spSort, .spSortAsc, .spSortDesc
+{
+	color:#0000DD; 
+	cursor:pointer; 
+	text-decoration:underline;
+}
+.spSortAsc
+{ 
+	padding:0px 16px 0px 0px;
+	background:url(../images/common/sortAsc.png) no-repeat center right; 
+}
+.spSortDesc
+{
+	padding:0px 16px 0px 0px;
+	background:url(../images/common/sortDesc.png) no-repeat center right;
+}
+
+.spAllChecked, .spAllUnCheck, .spItemChecked, .spItemUnCheck
+{
+	height:24px;
+	line-height:24px;
+	cursor:pointer;
+	margin:0px auto;
+	padding:0px 0px 0px 24px;
+	background-image:url(../images/common/checkBox.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+.spAllChecked, .spItemChecked{ background-position:0px -24px; }
+.spAllUnCheck, .spItemUnCheck{ background-position:0px 0px; }
+
+.spRadioChecked, .spRadioUnCheck
+{
+	height:24px;
+	line-height:24px;
+	cursor:pointer;
+	margin:0px auto;
+	padding:0px 0px 0px 24px;
+	background-image:url(../images/common/radioButton.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+.spRadioChecked{ background-position:0px -24px; }
+.spRadioUnCheck{ background-position:0px 0px; }
+
+.ulList
+{
+	width:100%; 
+	text-align:center; 
+ 	margin:10px 0px 0px 0px; 
+ 	padding:0px;
+}
+.ulList li
+{
+	text-align:center;
+ 	line-height:30px;
+    list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+.spGray { color:#AAAAAA; }
+.spNoteOrg{ color:#fe6a20; }
+.spNoteRed{ color:Red; }
+.spNews
+{
+	font-family:Arial;
+	font-size:10px;
+	color:#FF9966;
+}
+
+.selectOk,selectError
+{
+	padding:2px;
+	background:#fff;
+	font-family:"微软雅黑","宋体";
+	font-size:12px;
+	line-height:12px;
+	color:#44474C;
+}
+.selectError{ background:#F9F7BA; }
